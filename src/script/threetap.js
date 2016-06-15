@@ -1,7 +1,7 @@
 $(window).scroll(function(event){
 	if ($(this).scrollTop() > 0) {
-		$("header").addClass("collapse");
+		$("header, div#zero").addClass("collapse");
 	}else{
-		$("header").removeClass("collapse");
+		$("header, div#zero").removeClass("collapse");
 	}
 });
