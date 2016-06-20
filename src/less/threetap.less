@@ -1,6 +1,14 @@
+	
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+// @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 *{
 	padding: 0;
 	margin: 0;
+
+	font-family: 'Noto Sans KR', sans-serif;
+
+	// font-family: 'Nanum Gothic', sans-serif;
 }
 
 header{
@@ -140,7 +148,7 @@ section{
 		}
 
 		>div.title{
-			font-size: 24px;
+			font-size: 18px;
 			font-weight: bold;
 		}
 
@@ -170,7 +178,7 @@ section#one{
 	background-color: #333;
 
 	>article{
-		height: 140px;
+		min-height: 140px;
 		color: #fff;
 	}
 
@@ -178,7 +186,7 @@ section#one{
 		width: 100%;
 		height: 280px;
 		
-		background-image: url("../img/one.webp");
+		background-image: url("../img/one.png");
 		background-size: 500px;
 		background-repeat: no-repeat;
 		background-position: 20px 0;
@@ -196,12 +204,39 @@ section#two{
 	>article{
 		color: #444;
 	}
+	>img{
+		display: block;
+		max-width: 600px;
+		width: 100%;
+		padding: 0 10px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	>div.img{
+		width: 100%;
+		height: 400px;
+		background-image: url("../img/two.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
 }
 
 section#three{
 	
 	background-color: #416563;
+	padding-bottom: 0;
+
+	>div.img{
+		// width: 100%;
+		height: 400px;
+		background-image: url("../img/three.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
 }
 
@@ -230,6 +265,12 @@ section#six{
 section#seven{
 	
 	background-color: #343d66;
+
+}
+
+section#eight{
+	
+	background-color: #543c56;
 
 }
 
